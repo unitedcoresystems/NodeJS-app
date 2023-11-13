@@ -17,7 +17,7 @@ console.log(__dirname);
 res.send("<h2>Welcome to Node JS express application</h2>"+appEnv.url+appEnv.port+port+process.env.LOGNAME);
 
 }).listen(9009);
-console.log(__dirname+"/images/mithunlogo.jpg");
+console.log(__dirname+"/images/unitedcorelogo.png");
 */
 app.get('/united', function(request, response) {
     //response.send("<h2><center>Welcome to Node JS app</h2>");
@@ -46,7 +46,7 @@ app.get("/html", function(req,res){
         res.send({
 		'name': 'United Core',
 		'technology': 'DevOps',
-		'contact' : '',
+		'contact' : '+ 774 515 0044',
 		'email': 'info@unitedcoresystem.com'
 	            });
         
@@ -75,7 +75,7 @@ app.get('/redirect', function(req, res) {
     
  
     app.listen(app.get('port'), function() {
-        console.log("Node JS app is running at http://localhost:" + app.get('port') +"/unitedcore");
+        console.log("Node JS app is running at http://localhost:" + app.get('port') +"/united");
       })
     
 
